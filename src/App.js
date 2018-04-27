@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
-import './App.css'
-import { Sidebar } from './containers/Sidebar'
-import { MessagesList } from './containers/MessageList'
-import { AddMessage } from './containers/AddMessage'
+import React, { Component } from 'react';
+import './App.css';
+import { Sidebar } from './containers/Sidebar';
+import { MessagesList } from './containers/MessageList';
+import { AddMessage } from './containers/AddMessage';
 
 class App extends Component {
   render() {
@@ -17,4 +17,4 @@ class App extends Component {
     )
   }
 }
-export default App
+export default App;
